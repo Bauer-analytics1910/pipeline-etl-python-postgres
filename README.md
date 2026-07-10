@@ -19,10 +19,8 @@ O objetivo principal é correlacionar dados históricos de faturamento e volume 
 ## 📐 Arquitetura do Pipeline (ETL)
 
 O fluxo de dados foi desenhado para simular o ambiente real de uma engenharia de dados corporativa:
-[ ERP Interno (Vendas B2B) ] -----
+<img width="718" height="307" alt="Diagrama_Pipeline_ETL drawio" src="https://github.com/user-attachments/assets/4f2272ae-4e1d-4554-b65d-6338cb3e65a4" />
 
-+---> [ Python (Pandas & Requests) ] ---> [ PostgreSQL ] ---> [ Power BI ]
-[ API Clima (Open-Meteo) ] -------/       (Limpeza, Cruzamento e Carga)        (Star Schema)       (Dashboard)
 
 ### 1. Extração (Extract)
 * **Vendas Internas:** Simulação automatizada via script Python para gerar uma base de 3.000 registros históricos de vendas B2B ao longo do ano de 2025, incorporando regras reais de sazonalidade comercial de alta temporada (meses quentes) e baixa temporada (meses frios).
