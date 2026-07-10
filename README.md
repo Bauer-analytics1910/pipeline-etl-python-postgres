@@ -19,6 +19,7 @@ O objetivo principal é correlacionar dados históricos de faturamento e volume 
 ## 📐 Arquitetura do Pipeline (ETL)
 
 O fluxo de dados foi desenhado para simular o ambiente real de uma engenharia de dados corporativa:
+
 <img width="718" height="307" alt="Diagrama_Pipeline_ETL drawio" src="https://github.com/user-attachments/assets/4f2272ae-4e1d-4554-b65d-6338cb3e65a4" />
 
 
