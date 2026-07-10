@@ -66,3 +66,26 @@ WHERE temperatura_media > 22.0
 GROUP BY produto
 ORDER BY total_vendido DESC
 LIMIT 3;
+
+Essa visualização permite que qualquer ferramenta de relatório consulte de forma extremamente otimizada os produtos mais relevantes em dias quentes:
+
+SELECT * FROM vw_top3_produtos_calor;
+
+📂 Estrutura do Repositório
+O projeto está organizado da seguinte forma:
+
+├── dados_brutos/               # Arquivos CSV originais de vendas e clima gerados no Python
+├── scripts_python/             # Scripts executados no Google Colab (.py ou .ipynb)
+├── sql_scripts/                # Scripts SQL de criação de tabelas, povoamento e views
+│   ├── 01_setup_tabelas.sql
+│   ├── 02_povoamento_dimensoes.sql
+│   └── 03_views_analiticas.sql
+└── README.md                   # Documentação do projeto
+
+🚧 Próximos Passos (Em Desenvolvimento)
+
+[ ] Integração final do banco de dados local PostgreSQL com o Power BI Desktop.
+
+[ ] Desenvolvimento de métricas em DAX para analisar variações percentuais de faturamento por faixa de temperatura.
+
+[ ] Criação de painel gerencial interativo com visualizações de dispersão para comprovar a correlação estatística entre temperatura e demanda B2B.
