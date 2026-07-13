@@ -80,12 +80,14 @@ O projeto está organizado da seguinte forma:
 │   ├── 02_povoamento_dimensoes.sql
 │   └── 03_views_analiticas.sql
 └── README.md                   
+```
 
 📊 Visualização de Dados e Inteligência de Negócios (Power BI)
 
-<img width="886" height="499" alt="Captura de tela dashboard_b2b_pg1" src="https://github.com/user-attachments/assets/460f3f59-2e0d-47f1-867e-6117ed71f5f0"/>
+![Dashboard B2B - Página 1](https://github.com/user-attachments/assets/dc592b0a-85df-42d9-a141-6c230d2d1ffa)
 
-<img width="885" height="497" alt="Captura de tela dashboard_b2b_pg2" src="https://github.com/user-attachments/assets/ca86a583-43ca-4e94-be2d-11133d2217c7"/>
+![Dashboard B2B - Página 2](https://github.com/user-attachments/assets/93bec362-b077-4808-b3e1-71a2fbd8e7ea)
+
 
 
 
