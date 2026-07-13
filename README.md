@@ -83,9 +83,9 @@ O projeto está organizado da seguinte forma:
 
 📊 Visualização de Dados e Inteligência de Negócios (Power BI)
 
-<img width="886" height="499" alt="Captura de tela dashboard_b2b_pg1" src="https://github.com/user-attachments/assets/84343ef6-357f-43a7-a556-032800dd15c6" />
+<img width="886" height="499" alt="Captura de tela dashboard_b2b_pg1" src="https://github.com/user-attachments/assets/460f3f59-2e0d-47f1-867e-6117ed71f5f0"/>
 
-<img width="885" height="497" alt="Captura de tela dashboard_b2b_pg2" src="https://github.com/user-attachments/assets/bbebac98-a091-4f82-bda8-aeaac7d6e52c" />
+<img width="885" height="497" alt="Captura de tela dashboard_b2b_pg2" src="https://github.com/user-attachments/assets/ca86a583-43ca-4e94-be2d-11133d2217c7"/>
 
 
 
