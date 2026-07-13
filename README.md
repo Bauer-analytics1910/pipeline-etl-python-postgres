@@ -81,10 +81,42 @@ O projeto está organizado da seguinte forma:
 │   └── 03_views_analiticas.sql
 └── README.md                   
 
-🚧 Próximos Passos (Em Desenvolvimento)
+📊 Visualização de Dados e Inteligência de Negócios (Power BI)
 
-[ ] Integração final do banco de dados local PostgreSQL com o Power BI Desktop.
+<img width="886" height="499" alt="Captura de tela dashboard_b2b_pg1" src="https://github.com/user-attachments/assets/84343ef6-357f-43a7-a556-032800dd15c6" />
 
-[ ] Desenvolvimento de métricas em DAX para analisar variações percentuais de faturamento por faixa de temperatura.
+<img width="885" height="497" alt="Captura de tela dashboard_b2b_pg2" src="https://github.com/user-attachments/assets/bbebac98-a091-4f82-bda8-aeaac7d6e52c" />
 
-[ ] Criação de painel gerencial interativo com visualizações de dispersão para comprovar a correlação estatística entre temperatura e demanda B2B.
+
+
+A etapa final do projeto consistiu em transformar os dados modelados em um painel interativo voltado para a tomada de decisão da diretoria comercial. O design da interface (UI/UX) foi inteiramente prototipado no Figma, visando uma navegação intuitiva e redução da carga cognitiva.
+
+O dashboard foi dividido em duas visões principais: Desempenho Geral e Análise de Sazonalidade.
+
+📈 Métricas de Destaque (KPIs)
+Faturamento Total: R$ 10,20 Mi
+
+Volume Faturado: 107 Mil unidades
+
+Ticket Médio B2B: R$ 3,40 Mil
+
+🎯 Principais Insights e Ações Estratégicas
+Através do uso de fórmulas DAX avançadas e cruzamento do histórico de vendas com a temperatura média diária, o projeto respondeu a perguntas complexas de negócios e gerou as seguintes recomendações:
+
+A Prova Matemática da Sazonalidade (Correlação Térmica)
+
+O Dado: O modelo de dispersão construído revela uma alta elasticidade da demanda B2B em relação ao clima, com o volume de pedidos acelerando exponencialmente em dias com temperaturas acima de 25°C (atingindo picos de receita na casa de R$ 1,36 Mi em meses quentes como março).
+
+Ação Operacional: Integração da previsão meteorológica ao PCP (Planejamento de Produção) para antecipar a fabricação de lotes, como Cremes de Cupuaçu 5L e Bases de Milkshake, otimizando a logística de entrega em ondas de calor.
+
+Risco de Concentração e Curva ABC
+
+O Dado: Os 5 maiores clientes da fábrica representam 13,15% de toda a receita gerada durante o alto verão.
+
+Ação Comercial: Criação de campanhas de descontos progressivos focadas na Curva B (clientes de médio porte) para diluir o risco de dependência e garantir um piso de faturamento seguro nos meses de baixa temporada.
+
+Plano de Contenção para o Inverno
+
+O Dado: A análise comparativa de ritmo diário comprovou uma contração exata de 38,32% no faturamento durante os períodos frios (temperaturas médias abaixo de 22°C).
+
+Ação Comercial: Direcionamento da equipe de prospecção para focar ativamente na venda de bases de milkshake, além de criar campanhas incentivando a carteira atual a adotar receitas de inverno (como Affogato e bebidas quentes) para blindar o fluxo de caixa da empresa.
